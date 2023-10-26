@@ -85,6 +85,7 @@ body {
 .conteiner__conteudo__paragrafo{
     font-size: var(--font-pequena);
     font-family: var(--font-secundaria);
+    color: var(--cor-terciaria);
 }
 
 .conteiner__links {
@@ -99,6 +100,7 @@ body {
     font-family: var(--font-primaria);
     font-weight: var(--font-leve);
     font-size: var(--font-pequena);
+    color: var(--cor-terciaria);
 }
 
 .conteiner__links__midias_sociais {
@@ -114,7 +116,7 @@ body {
     font-family: var(--font-secundaria);
     font-size: var(--font-pequena);
     text-decoration: none;
-    color: var(--cor-secundaria);
+    color: var(--cor-terciaria);
 }
 
 .conteiner__links__midias_sociais:hover {
