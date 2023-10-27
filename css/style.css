@@ -33,12 +33,12 @@ body {
     padding: 2% 0 0 15%;
 }
 
-.cabecalho__menu{
+.cabecalho__menu {
     display: flex;
     gap: 5rem;
 }
 
-.cabecalho__menu__link {
+.cabecalho__menu__links {
     font-family: var(--font-secundaria);
     font-size: var(--font-pequena);
     font-weight: var(--font-pesada);
@@ -46,15 +46,15 @@ body {
     text-decoration: none;
 }
 
-.cabecalho__menu__link:hover {
+.cabecalho__menu__links:hover {
     color: var(--cor-hover-menu);
 }
 
-.titulo {
+.destaque-texto {
     color: var(--cor-terciaria);
 }
 
-.conteiner {
+.principal {
     padding: 5% 15%;
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@ body {
     gap: 5.25rem;
 }
 
-.conteiner__projetos {
+.principal__projetos {
     padding: 5% 15%;
     display: flex;
     align-items: center;
@@ -70,25 +70,25 @@ body {
     gap: 5.25rem;
 }
 
-.conteiner__conteudo {
+.principal__conteudo {
     width: 50%;
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
 }
 
-.conteiner__conteudo__titulo {
+.principal__conteudo__titulo {
     font-size: var(--font-grande);
     font-family: var(--font-primaria);
 }
 
-.conteiner__conteudo__paragrafo{
+.principal__conteudo__paragrafo{
     font-size: var(--font-pequena);
     font-family: var(--font-secundaria);
     color: var(--cor-terciaria);
 }
 
-.conteiner__links {
+.principal__conteudo__links {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -96,14 +96,14 @@ body {
     gap: 2rem;
 }
 
-.conteiner__links__subtitulo {
+.principal__conteudo__links__subtitulo {
     font-family: var(--font-primaria);
     font-weight: var(--font-leve);
     font-size: var(--font-pequena);
     color: var(--cor-terciaria);
 }
 
-.conteiner__links__midias_sociais {
+.principal__conteudo__links__midias {
     display: flex;
     justify-content: center;
     gap: 1rem;
@@ -119,11 +119,11 @@ body {
     color: var(--cor-terciaria);
 }
 
-.conteiner__links__midias_sociais:hover {
+.principal__conteudo__links__midias:hover {
     background-color: var(--cor-hover-link);
 }
 
-.conteiner__imagem {
+.principal__imagem {
    width: 50%;
 }
 
@@ -142,11 +142,11 @@ body {
     .cabecalho {
         padding: 7% 0 0 13%;
     }
-    .conteiner {
+    .principal {
         flex-direction: column-reverse;
         padding: 5%;
     }
-    .conteiner__conteudo {
+    .principal__conteudo {
         width: auto;
     }
 }
