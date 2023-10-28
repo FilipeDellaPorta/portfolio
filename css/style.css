@@ -78,6 +78,11 @@ body {
     gap: 5rem;
 }
 
+.principal__projetos__imagem {
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
 .principal__conteudo {
     width: 50%;
     display: flex;
@@ -152,6 +157,8 @@ body {
 
 .principal__imagem {
    width: 50%;
+   border: 2px solid #000;
+   border-radius: 10px;
 }
 
 .rodape {
