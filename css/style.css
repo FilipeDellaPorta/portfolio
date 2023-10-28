@@ -190,4 +190,13 @@ body {
         border: 0.12rem solid var(--cor-terciaria);
         padding: 1.5rem 2.25rem;
     }
+    .principal__projetos {
+        flex-direction: column;
+    }
+    .principal__projetos__imagem {
+        width: 50%;
+    }
+    .principal__projetos__imagem__divisao {
+        align-items: center;
+    }
 }
