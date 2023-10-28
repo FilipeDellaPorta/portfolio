@@ -63,11 +63,12 @@ body {
 }
 
 .principal__projetos {
-    padding: 5% 15%;
+    padding: 2% 4%;
+}
+
+.principal__projetos__imagem__divisao {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5.25rem;
+    gap: 5rem;
 }
 
 .principal__conteudo {
@@ -190,10 +191,12 @@ body {
         border: 0.12rem solid var(--cor-terciaria);
         padding: 1.5rem 2.25rem;
     }
-    .principal__projetos {
-        flex-direction: column;
-    }
+    .principal__projetos__imagem__divisao {
+        flex-direction: column; 
+        gap: 2.5rem;
+        padding: 0 6%;
+   }
     .principal__projetos__imagem {
-        width: 50%;
+        width: 20rem;
     }
 }
