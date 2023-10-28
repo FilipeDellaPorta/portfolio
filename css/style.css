@@ -58,7 +58,6 @@ body {
     padding: 5% 15%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 5.25rem;
 }
 
@@ -182,8 +181,7 @@ body {
     }
     .principal {
         flex-direction: column-reverse;
-        padding: 0 8% 5% 8%;
-        justify-content: normal;
+        padding: 4% 0;
     }
     .principal__conteudo__titulo {
         font-size: 2rem;
@@ -202,7 +200,7 @@ body {
     .principal__projetos__imagem__divisao {
         flex-direction: column; 
         gap: 2.5rem;
-        padding: 0 6%;
+        padding: 0 4%;
    }
     .principal__projetos__imagem {
         width: 20rem;
