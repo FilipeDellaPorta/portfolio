@@ -188,6 +188,6 @@ body {
     .principal__conteudo__links__midias {
         font-size: 1.25rem;
         border: 0.12rem solid var(--cor-terciaria);
-        padding: 1.5rem 2rem;
+        padding: 1.5rem 2.25rem;
     }
 }
