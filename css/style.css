@@ -191,16 +191,16 @@ body {
         padding: 4% 10%;
     }
     .principal__conteudo__titulo {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .principal__conteudo__paragrafo {
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
     .principal__conteudo__links__subtitulo {
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
     .principal__conteudo__links__midias {
-        font-size: 1.25rem;
+        font-size: 1rem;
         border: 0.12rem solid var(--cor-terciaria);
         padding: 1.5rem 2.25rem;
     }
