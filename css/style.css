@@ -197,6 +197,7 @@ body {
         width: 50%;
     }
     .principal__projetos__imagem__divisao {
+        justify-content: center;
         align-items: center;
     }
 }
