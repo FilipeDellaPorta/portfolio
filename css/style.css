@@ -181,7 +181,7 @@ body {
     }
     .principal {
         flex-direction: column-reverse;
-        padding: 4% 0;
+        padding: 4% 10%;
     }
     .principal__conteudo__titulo {
         font-size: 2rem;
