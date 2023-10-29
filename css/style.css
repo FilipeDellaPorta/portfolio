@@ -61,28 +61,6 @@ body {
     gap: 5.25rem;
 }
 
-.principal__certificados {
-    padding: 5% 15%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 5.25rem; 
-}
-
-.principal__projetos {
-    padding: 2% 4%;
-}
-
-.principal__projetos__imagem__divisao {
-    display: flex;
-    gap: 5rem;
-}
-
-.principal__projetos__imagem {
-    border: 2px solid #000000;
-    border-radius: 10px;
-}
-
 .principal__conteudo {
     width: 50%;
     display: flex;
@@ -136,6 +114,50 @@ body {
     background-color: var(--cor-hover-link);
 }
 
+.principal__imagem {
+   width: 50%;
+   border: 2px solid #000;
+   border-radius: 10px;
+}
+
+.rodape {
+    color: var(--cor-terciaria);
+    background-color: var(--cor-quaternaria);
+    padding: 1.5rem;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: var(--fonte-pequena);
+    font-weight: var(--fonte-pesada);
+}
+
+/* pagina sobre mim */
+
+/* pagina sobre projetos */
+
+.principal__projetos {
+    padding: 2% 4%;
+}
+
+.principal__projetos__imagem__divisao {
+    display: flex;
+    gap: 5rem;
+}
+
+.principal__projetos__imagem {
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+/* pagina certificados */
+
+.principal__certificados {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5.25rem; 
+}
+
 .principal__certificados__conteudo {
     display: flex;
     flex-direction: column;
@@ -153,22 +175,6 @@ body {
 
 .principal__certificados__conteudo__links:hover {
     color: var(--cor-hover-menu);
-}
-
-.principal__imagem {
-   width: 50%;
-   border: 2px solid #000;
-   border-radius: 10px;
-}
-
-.rodape {
-    color: var(--cor-terciaria);
-    background-color: var(--cor-quaternaria);
-    padding: 1.5rem;
-    text-align: center;
-    font-family: var(--fonte-secundaria);
-    font-size: var(--fonte-pequena);
-    font-weight: var(--fonte-pesada);
 }
 
 
