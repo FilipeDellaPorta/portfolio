@@ -54,6 +54,8 @@ body {
     color: var(--cor-terciaria);
 }
 
+/* pagina principal e sobre mim */
+
 .principal {
     padding: 5% 15%;
     display: flex;
@@ -130,9 +132,7 @@ body {
     font-weight: var(--fonte-pesada);
 }
 
-/* pagina sobre mim */
-
-/* pagina sobre projetos */
+/* pagina projetos */
 
 .principal__projetos {
     padding: 2% 4%;
@@ -192,6 +192,7 @@ body {
         align-items: center;
         gap: 0.5rem;
     }
+    /* pagina principal e sobre mim */
     .principal {
         flex-direction: column-reverse;
         padding: 4% 10%;
@@ -210,6 +211,7 @@ body {
         border: 0.12rem solid var(--cor-terciaria);
         padding: 1.5rem 2.25rem;
     }
+    /* pagina projetos */
     .principal__projetos__imagem__divisao {
         flex-direction: column; 
         gap: 2.5rem;
@@ -219,3 +221,4 @@ body {
         width: 20rem;
     }
 }
+
