@@ -196,6 +196,7 @@ body {
     .principal {
         flex-direction: column-reverse;
         padding: 4% 10%;
+        gap: 2.5rem;
     }
     .principal__conteudo__titulo {
         font-size: 1.5rem;
