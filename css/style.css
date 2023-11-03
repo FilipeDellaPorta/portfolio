@@ -212,6 +212,9 @@ body {
         border: 0.12rem solid var(--cor-terciaria);
         padding: 1.5rem 2.25rem;
     }
+    .principal__imagem {
+        display: none;
+    }
     /* pagina projetos */
     .principal__projetos__imagem__divisao {
         flex-direction: column; 
