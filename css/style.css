@@ -54,8 +54,6 @@ body {
     color: var(--cor-terciaria);
 }
 
-/* pagina principal e sobre mim */
-
 .principal {
     padding: 5% 15%;
     display: flex;
@@ -132,22 +130,6 @@ body {
     font-weight: var(--fonte-pesada);
 }
 
-/* pagina projetos */
-
-.principal__projetos {
-    padding: 2% 4%;
-}
-
-.principal__projetos__imagem__divisao {
-    display: flex;
-    gap: 5rem;
-}
-
-.principal__projetos__imagem {
-    border: 2px solid #000000;
-    border-radius: 10px;
-}
-
 
 @media (max-width: 912px) {
     .body {
@@ -163,7 +145,6 @@ body {
         align-items: center;
         gap: 0.5rem;
     }
-    /* pagina principal e sobre mim */
     .principal {
         flex-direction: column-reverse;
         padding: 4% 10%;
@@ -186,14 +167,6 @@ body {
     .principal__imagem {
         display: none;
     }
-    /* pagina projetos */
-    .principal__projetos__imagem__divisao {
-        flex-direction: column; 
-        gap: 2.5rem;
-        padding: 0 4%;
-   }
-    .principal__projetos__imagem {
-        width: 20rem;
-    }
+   
 }
 
