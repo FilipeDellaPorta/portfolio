@@ -148,35 +148,6 @@ body {
     border-radius: 10px;
 }
 
-/* pagina certificados */
-
-.principal__certificados {
-    padding: 5% 15%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 5.25rem; 
-}
-
-.principal__certificados__conteudo {
-    display: flex;
-    flex-direction: column;
-    color: var(--cor-terciaria);
-    gap: 1rem;
-    font-size: var(--fonte-pequena);
-    font-weight: var(--fonte-leve);
-    font-family: var(--fonte-secundaria);
-}
-
-.principal__certificados__conteudo__links {
-    color: var(--cor-secundaria);
-    text-decoration: none;
-}
-
-.principal__certificados__conteudo__links:hover {
-    color: var(--cor-hover-menu);
-}
-
 
 @media (max-width: 912px) {
     .body {
