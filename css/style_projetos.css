@@ -78,26 +78,3 @@ body {
     font-weight: var(--fonte-pesada);
 }
 
-@media (max-width: 912px) {
-    .body {
-        padding: 0;
-        margin: 0;
-        width: auto;
-    }
-    .cabecalho {
-        padding: 5% 0 5% 0;
-    }
-    .cabecalho__menu {
-        flex-direction: column;
-        align-items: center;
-        gap: 0.5rem;
-    }
-    .principal__projetos__imagem__divisao {
-        flex-direction: column; 
-        gap: 2.5rem;
-        padding: 0 4%;
-   }
-    .principal__projetos__imagem {
-        width: 20rem;
-    }
-}
