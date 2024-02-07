@@ -34,8 +34,10 @@ body {
 }
 
 .cabecalho__menu {
+    padding-right: 2%;
     display: flex;
-    gap: 5rem;
+    justify-content: flex-end;
+    gap: 2rem;
 }
 
 .cabecalho__menu__links {
