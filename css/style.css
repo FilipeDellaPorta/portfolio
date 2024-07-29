@@ -16,38 +16,38 @@ body {
     font-weight: 600;
 }
 
-.cabecalho__menu-link {
+.cabecalho__menu__link {
     color: var(--cor-branca);
     text-decoration: none;
 }
 
-.cabecalho__menu-link:hover {
+.cabecalho__menu__link:hover {
     color: var(--cor-azul-claro);
 }
 
-.destaque-texto {
+.destaque__texto {
     color: var(--cor-branca);   
 }
 
-.principal__conteudo-titulo {
+.principal__conteudo__titulo {
     font-size: 1rem;
     font-family: var(--fonte-primaria);
     line-height: 1.5rem;
     color: #F4D35E;
 }
 
-.principal__links-titulo {
+.principal__links__titulo {
     font-family: var(--fonte-primaria);
     font-weight: 400;
 }
 
-.principal__links-link {
+.principal__links__link {
     border: 0.12rem solid #FAF0CA;
     text-decoration: none;
     color: var(--cor-branca)
 }
 
-.principal__links-link:hover {
+.principal__links__link:hover {
     background-color: var(--cor-azul-claro);
 }
 
@@ -64,7 +64,7 @@ body {
     body {
         font-size: 1.5rem;
     }
-    .principal__conteudo-titulo {
+    .principal__conteudo__titulo {
         font-size: 2.25rem;
         line-height: 2.75rem;
     }

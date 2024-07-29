@@ -38,7 +38,7 @@
     padding: .5rem;
 }
 
-.principal__links-link {
+.principal__links__link {
     display: flex;
     justify-content: center;
     column-gap: .2rem;
@@ -47,7 +47,7 @@
     border-radius: 0.5rem;
 }
 
-.link-imagem {
+.link__imagem {
     width: 25%;
 }
 
@@ -86,7 +86,7 @@
         align-items: center;
         row-gap: 2rem;
     }
-    .principal__links-link {
+    .principal__links__link {
         display: flex;
         justify-content: center;
         column-gap: 1rem;
