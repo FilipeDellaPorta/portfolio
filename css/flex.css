@@ -1,51 +1,96 @@
 .cabecalho {
-    padding: 2% 0 0 15%;
+    padding: 1rem 2rem 1rem 1rem;
 }
-
 .cabecalho__menu {
     display: flex;
-    justify-content: flex-end;
-    gap: 2rem;
-    padding-right: 2%;
+    justify-content: space-between;
+    column-gap: .5rem;
+    padding: 0;
 }
-
 .principal {
     display: flex;
     align-items: center;
-    gap: 5.25rem;
-    padding: 5% 15%;
+    column-gap: 5.25rem;
+    padding: 1rem 2rem 1rem 1rem;
 }
-
 .principal__conteudo {
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
-    width: 50%;
+    row-gap: 2.5rem;
+    width: auto;
 }
-
-.principal__conteudo__links {
+.principal__imagem {
+    display: none;
+}
+.principal__links {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
     align-items: center;
-    gap: 2rem;
+    column-gap: .5rem;
+    padding: .5rem;
 }
-
-.principal__conteudo__links__midias {
+.principal__links-link {
     display: flex;
     justify-content: center;
-    gap: 1rem;
-    width: 50%;
-    text-align: center;
+    column-gap: .2rem;
+    padding: 1rem;
+    align-items: center;
     border-radius: 0.5rem;
-    padding: 1rem 0;
 }
-
-.principal__imagem {
-    width: 50%;
+.link-imagem {
+    width: 25%;
 }
 
 .rodape {
     padding: 1.5rem;
     text-align: center;
+}
+
+@media (min-width: 1200px) {
+    .cabecalho {
+        padding: 2% 0 0 15%;
+    }
+    
+    .cabecalho__menu {
+        display: flex;
+        justify-content: flex-end;
+        column-gap: 2rem;
+        padding-right: 2%;
+    }
+    
+    .principal {
+        display: flex;
+        align-items: center;
+        column-gap: 5.25rem;
+        padding: 5% 15%;
+    }
+    
+    .principal__conteudo {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2.5rem;
+        width: 50%;
+    }
+    
+    .principal__links {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        row-gap: 2rem;
+    }
+    
+    .principal__links-link {
+        display: flex;
+        justify-content: center;
+        column-gap: 1rem;
+        width: 50%;
+        align-items: center;
+        padding: 1rem 0;
+    }
+    
+    .principal__imagem {
+        display: block;
+        width: 50%;
+    }
 }
