@@ -12,7 +12,7 @@ body {
     background-color: #0D3B66;
     color: var(--cor-branca);
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
+    font-size: .5rem;
     font-weight: 600;
 }
 
@@ -30,9 +30,9 @@ body {
 }
 
 .principal__conteudo-titulo {
-    font-size: 2.25rem;
+    font-size: 1rem;
     font-family: var(--fonte-primaria);
-    line-height: 2.5rem;
+    line-height: 1.5rem;
     color: #F4D35E;
 }
 
@@ -60,11 +60,12 @@ body {
     background-color: var(--cor-azul-claro);
 }
 
-@media (max-width: 360px) {
+@media (min-width: 1024px) {
     body {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     .principal__conteudo-titulo {
-        font-size: 1.5rem;
+        font-size: 2.25rem;
+        line-height: 2.75rem;
     }
 }
