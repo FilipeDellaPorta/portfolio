@@ -1,19 +1,26 @@
+.cabecalho {
+    padding: 2% 0 0 15%;
+}
+
 .cabecalho__menu {
     display: flex;
     justify-content: flex-end;
     gap: 2rem;
+    padding-right: 2%;
 }
 
 .principal {
     display: flex;
     align-items: center;
     gap: 5.25rem;
+    padding: 5% 15%;
 }
 
 .principal__conteudo {
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
+    width: 50%;
 }
 
 .principal__conteudo__links {
@@ -28,4 +35,17 @@
     display: flex;
     justify-content: center;
     gap: 1rem;
+    width: 50%;
+    text-align: center;
+    border-radius: 0.5rem;
+    padding: 1rem 0;
+}
+
+.principal__imagem {
+    width: 50%;
+}
+
+.rodape {
+    padding: 1.5rem;
+    text-align: center;
 }
