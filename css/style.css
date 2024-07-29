@@ -21,7 +21,7 @@ body {
     text-decoration: none;
 }
 
-.cabecalho__menu__link:hover {
+.cabecalho__menu-link:hover {
     color: var(--cor-azul-claro);
 }
 
