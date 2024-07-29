@@ -1,0 +1,31 @@
+.cabecalho__menu {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    gap: 5.25rem;
+}
+
+.principal__conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.principal__conteudo__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.principal__conteudo__links__midias {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
