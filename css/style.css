@@ -1,74 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&family=Montserrat:wght@600&display=swap');
 
 :root {
-    --cor-primaria: #0D3B66;
-    --cor-secundaria: #F4D35E;
-    --cor-terciaria: #FAF0CA;
-    --cor-hover-link: #40F8FF; 
-    --cor-hover-menu: #F95738;
-    --cor-quaternaria: #539feb;
+    --cor-branca: #FAF0CA;
+    --cor-azul-claro: #539feb;
 
     --fonte-primaria: 'Krona One', sans-serif;
-    --fonte-secundaria: 'Montserrat', sans-serif;
-
-    --fonte-pequena: 1.5rem;
-    --fonte-grande: 2.25rem;
-
-    --fonte-leve: 400;
-    --fonte-pesada: 600;
 } 
 
 body {
     box-sizing: border-box;
-    background-color :var(--cor-primaria);
-    color: var(--cor-secundaria);
+    background-color: #0D3B66;
+    color: var(--cor-branca);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 .cabecalho__menu__links {
-    font-family: var(--fonte-secundaria);
-    font-size: var(--fonte-pequena);
-    font-weight: var(--fonte-pesada);
-    color: var(--cor-terciaria);
+    color: var(--cor-branca);
     text-decoration: none;
 }
 
 .cabecalho__menu__links:hover {
-    color: var(--cor-hover-menu);
+    color: var(--cor-azul-claro);
 }
 
 .destaque-texto {
-    color: var(--cor-terciaria);
+    color: var(--cor-branca);   
 }
 
 .principal__conteudo__titulo {
-    font-size: var(--fonte-grande);
+    font-size: 2.25rem;
     font-family: var(--fonte-primaria);
+    color: #F4D35E;
 }
 
 .principal__conteudo__paragrafo{
-    font-size: var(--fonte-pequena);
-    font-family: var(--fonte-secundaria);
-    color: var(--cor-terciaria);
+    color: var(--cor-branca)
 }
 
 .principal__conteudo__links__subtitulo {
     font-family: var(--fonte-primaria);
-    font-weight: var(--fonte-leve);
-    font-size: var(--fonte-pequena);
-    color: var(--cor-terciaria);
+    font-weight: 400;
 }
 
 .principal__conteudo__links__midias {
-    border: 0.12rem solid var(--cor-terciaria);
-    font-weight: var(--fonte-pesada);
-    font-family: var(--fonte-secundaria);
-    font-size: var(--fonte-pequena);
+    border: 0.12rem solid #FAF0CA;
     text-decoration: none;
-    color: var(--cor-terciaria);
+    color: var(--cor-branca)
 }
 
 .principal__conteudo__links__midias:hover {
-    background-color: var(--cor-hover-link);
+    background-color: var(--cor-azul-claro);
 }
 
 .principal__imagem {
@@ -77,10 +60,6 @@ body {
 }
 
 .rodape {
-    color: var(--cor-terciaria);
-    background-color: var(--cor-quaternaria);
-    font-family: var(--fonte-secundaria);
-    font-size: var(--fonte-pequena);
-    font-weight: var(--fonte-pesada);
+    background-color: var(--cor-azul-claro);
 }
 
