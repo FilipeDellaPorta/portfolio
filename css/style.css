@@ -45,11 +45,12 @@ body {
 .principal__links__link {
     border: 0.12rem solid #FAF0CA;
     text-decoration: none;
-    color: var(--cor-branca)
+    color: var(--cor-branca);
 }
 
 .principal__links__link:hover {
     background-color: var(--cor-azul-claro);
+    color: var(--cor-vermelha);
 }
 
 .principal__imagem {
