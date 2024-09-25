@@ -9,7 +9,7 @@
 
 body {
     box-sizing: border-box;
-    background-color: #0D3B66;
+    background: linear-gradient(135deg, #0D3B66, #90e0ef);
     color: var(--cor-branca);
     font-family: 'Montserrat', sans-serif;
     font-size: .8rem;
