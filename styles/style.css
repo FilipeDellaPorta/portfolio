@@ -70,6 +70,22 @@ body {
     color: var(--cor-terciaria);
 }
 
+.apresentacao__conteudo__link {
+    text-decoration: none;
+}
+
+.apresentacao__conteudo__link__texto {
+    font-size: var(--tamanho-titulo);
+    font-family: var(--fonte-familia-texto);
+    font-weight: 400;
+    text-align: center;
+    color: var(--cor-secundaria)
+}
+
+.apresentacao__conteudo__link__texto:hover {
+    color: var(--cor-terciaria);
+}
+
 .apresentacao__conteudo__texto {
     font-size: var(--tamanho-texto);
     font-family: var(--fonte-familia-texto);
