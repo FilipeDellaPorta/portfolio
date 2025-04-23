@@ -16,7 +16,6 @@ O portfólio é dividido em três seções principais:
 
 - 🏠 **Home** – Uma introdução simples e visual.
 - 🙋‍♂️ **Sobre Mim** – Um breve resumo sobre minha trajetória.
-- 💼 **Projetos** – Apresentação de um projeto prático (mais virão em breve!).
 
 ---
 
