@@ -22,6 +22,16 @@ body {
     color: var(--cor-secundaria)
 }
 
+.body-projetos {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.apresentacao.projetos {
+    align-self: center;
+}
+
 .cabecalho {
     padding: 2% 0 0 8%;
 }
@@ -93,6 +103,12 @@ body {
     text-align: center;
     word-break: break-word;
     hyphens: auto;
+}
+
+.apresentacao__conteudo__texto.no-break-word {
+    word-break: normal;
+    overflow-wrap: normal;
+    hyphens: manual;
 }
 
 .apresentacao__links {
