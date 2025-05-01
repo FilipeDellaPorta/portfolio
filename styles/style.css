@@ -10,7 +10,9 @@
     --fonte-familia-texto: 'Montserrat', sans-serif;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     margin: 0;
     border: 0;
     padding: 0;
@@ -159,11 +161,6 @@ body.light-mode {
     font-family: var(--fonte-familia-texto);
     font-size: var(--tamanho-texto);
     font-weight: 400;
-}
-
-a:focus {
-    outline: 2px solid var(--cor-terciaria);
-    outline-offset: 4px;
 }
 
 @media (max-width: 1024px) {
