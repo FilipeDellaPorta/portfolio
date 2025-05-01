@@ -51,6 +51,10 @@ body {
     gap: 82px;
 }
 
+.apresentacao.coluna {
+    flex-direction: column;
+}
+
 .apresentacao__conteudo {
     width: 55%;
     display: flex;
@@ -61,9 +65,8 @@ body {
 .apresentacao__conteudo__titulo {
     font-size: var(--tamanho-titulo);
     font-family: var(--fonte-familia-titulo);
-    word-break: break-word;
-    hyphens: auto;
     text-align: center;
+    hyphens: manual;
 }
 
 .titulo-destaque {
@@ -91,13 +94,7 @@ body {
     font-family: var(--fonte-familia-texto);
     font-weight: 400;
     text-align: center;
-    word-break: break-word;
-    hyphens: auto;
-}
-
-.apresentacao__conteudo__texto.no-break-word {
     word-break: normal;
-    overflow-wrap: normal;
     hyphens: manual;
 }
 
