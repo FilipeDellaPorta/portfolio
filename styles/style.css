@@ -22,16 +22,6 @@ body {
     color: var(--cor-secundaria)
 }
 
-.body-projetos {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.apresentacao.projetos {
-    align-self: center;
-}
-
 .cabecalho {
     padding: 2% 0 0 8%;
 }
